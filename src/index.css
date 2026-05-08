@@ -1,0 +1,86 @@
+:root {
+  --background: #000000;
+  --surface: #0d0d0d;
+  --surface-light: #1a1a1a;
+  --primary-gradient: linear-gradient(96.76deg, rgb(232, 96, 46) 5.3%, rgb(52, 14, 0) 234.66%);
+  --primary-color: rgb(232, 96, 46);
+  --text-primary: #ffffff;
+  --text-secondary: #b3b3b3;
+  --text-dark: #000000;
+  
+  --font-display: 'Neue Machina', 'ITC Avant Garde Gothic Std', sans-serif;
+  --font-heading: 'ITC Avant Garde Gothic Std', 'Century Gothic', sans-serif;
+  --font-body: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--background);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, .font-display {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+.section {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Lenis Recommended CSS */
+html.lenis {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Gradient Text Utility */
+.text-gradient {
+  background: var(--primary-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.bg-gradient {
+  background: var(--primary-gradient);
+}
