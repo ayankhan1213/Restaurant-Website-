@@ -1,5 +1,5 @@
 🍽️ Iqbal Nihari Restaurant Website — Authentic Taste of Traditional Desi Cuisine
-📌 Project Description
+Live Demo : https://heroic-florentine-da3712.netlify.app/
 
 Iqbal Nihari Restaurant Website is a modern, responsive, and visually appealing web application designed to showcase the rich heritage and mouth-watering flavors of traditional Pakistani Nihari. This project represents a complete digital presence for a restaurant, built with a focus on elegant UI, smooth user experience, and clear presentation of menu items, services, and brand identity.
 
